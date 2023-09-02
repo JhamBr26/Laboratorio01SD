@@ -3,7 +3,7 @@ package UDP;
 import java.io.*;
 import java.net.*;
 
- public class ClienteUDP {
+ public class Cliente2UDP {
     public static void main(String[] args) {
         try {
             BufferedReader doUsuario = new BufferedReader(new InputStreamReader(System.in));
