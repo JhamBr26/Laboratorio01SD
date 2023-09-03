@@ -41,7 +41,8 @@ import java.net.*;
 
             socketCliente.close();
         } catch (IOException e) {
-            e.printStackTrace();
+            //e.printStackTrace();
+        	System.out.println("Se ha presentado un error");
         }
     }
 }

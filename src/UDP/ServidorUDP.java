@@ -40,7 +40,8 @@ public class ServidorUDP {
                 //Fin del while, vuelve al inicio y espera la llegada de otro datagrama
             }
         } catch (IOException e) {
-            e.printStackTrace();
+        	//e.printStackTrace();
+        	System.out.println("Se ha presentado un error");
         }
     }
 }
